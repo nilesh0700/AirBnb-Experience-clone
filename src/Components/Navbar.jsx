@@ -1,9 +1,9 @@
-import React from 'react'
-import airbnblogo from '../assets/images/airbnb logo.png'
-export default function navbar(){
-    return(
+import React from "react"
+
+export default function Navbar() {
+    return (
         <nav>
-            <img src={airbnblogo} className='airbnb--logo'/>
+            <img src="../images/airbnb-logo.png" className="nav--logo" />
         </nav>
     )
 }
